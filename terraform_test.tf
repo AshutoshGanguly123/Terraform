@@ -5,7 +5,7 @@ provider "aws" {
     secret_key = var.access_key[1]
 }
 
-#variable declaration for AWS ACcess keys
+#variable declaration for AWS Access keys
 variable "access_key" {
     description = "For keeping AWS acess keys private"
 }
