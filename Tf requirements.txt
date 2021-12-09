@@ -1,0 +1,5 @@
+#Terraform requirements
+
+1.CPU usage - 10 Terraform runs per CPU core.
+2.Memory usage - 512MB/run of terraform (by default terraform allocates 512 MB for its smooth run)
+3.Disk - According to the documentation one terraform needs to be allocated around 30-35 IOPS.
